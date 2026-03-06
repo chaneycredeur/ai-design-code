@@ -3,18 +3,18 @@
 }
 
 .card {
-  background-color: var(--ds-color-surface);
-  border: 1px solid var(--ds-color-border);
+  background-color: var(--ds-color-background-surface);
+  border: var(--ds-border-width-thin) solid var(--ds-color-border-default);
   border-radius: var(--ds-border-radius-md);
-  padding: var(--ds-spacing-lg);
+  padding: var(--ds-spacing-component-card-padding-md);
 }
 
 .card__header {
-  margin-bottom: var(--ds-spacing-md);
-  font-size: var(--ds-font-size-lg);
-  font-weight: 600;
+  margin-bottom: var(--ds-spacing-component-card-gap);
+  font-size: var(--ds-text-heading-xs-size);
+  font-weight: var(--ds-text-heading-xs-weight);
 }
 
 .card__body {
-  color: var(--ds-color-text-muted);
+  color: var(--ds-color-text-secondary);
 }

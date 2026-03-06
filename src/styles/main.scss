@@ -1,3 +1,5 @@
-@use 'tokens';
+@use 'tokens-primitives';
+@use 'tokens-light';
+@use 'tokens-dark';
 @use 'reset';
 @use 'global';

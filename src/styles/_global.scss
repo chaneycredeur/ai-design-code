@@ -1,11 +1,12 @@
 body {
-  font-family: var(--ds-font-family-sans);
-  font-size: var(--ds-font-size-base);
-  color: var(--ds-color-text);
-  background-color: var(--ds-color-surface);
-  line-height: 1.6;
+  font-family: var(--ds-text-body-font-family);
+  font-size: var(--ds-text-body-md-size);
+  color: var(--ds-color-text-primary);
+  background-color: var(--ds-color-background-surface);
+  line-height: var(--ds-text-body-md-line-height);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2;
+  font-family: var(--ds-text-heading-font-family);
+  line-height: var(--ds-text-heading-md-line-height);
 }
