@@ -1,0 +1,20 @@
+:host {
+  display: block;
+}
+
+.card {
+  background-color: var(--ds-color-surface);
+  border: 1px solid var(--ds-color-border);
+  border-radius: var(--ds-border-radius-md);
+  padding: var(--ds-spacing-lg);
+}
+
+.card__header {
+  margin-bottom: var(--ds-spacing-md);
+  font-size: var(--ds-font-size-lg);
+  font-weight: 600;
+}
+
+.card__body {
+  color: var(--ds-color-text-muted);
+}

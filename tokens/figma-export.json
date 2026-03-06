@@ -1,0 +1,96 @@
+{
+  "color": {
+    "primary": {
+      "$value": "#2563eb",
+      "$type": "color"
+    },
+    "primary-hover": {
+      "$value": "#1d4ed8",
+      "$type": "color"
+    },
+    "surface": {
+      "$value": "#ffffff",
+      "$type": "color"
+    },
+    "surface-alt": {
+      "$value": "#f8fafc",
+      "$type": "color"
+    },
+    "text": {
+      "$value": "#1e293b",
+      "$type": "color"
+    },
+    "text-muted": {
+      "$value": "#64748b",
+      "$type": "color"
+    },
+    "border": {
+      "$value": "#e2e8f0",
+      "$type": "color"
+    }
+  },
+  "spacing": {
+    "xs": {
+      "$value": "4px",
+      "$type": "dimension"
+    },
+    "sm": {
+      "$value": "8px",
+      "$type": "dimension"
+    },
+    "md": {
+      "$value": "16px",
+      "$type": "dimension"
+    },
+    "lg": {
+      "$value": "24px",
+      "$type": "dimension"
+    },
+    "xl": {
+      "$value": "32px",
+      "$type": "dimension"
+    }
+  },
+  "font": {
+    "family": {
+      "sans": {
+        "$value": "'Inter', system-ui, sans-serif",
+        "$type": "fontFamily"
+      }
+    },
+    "size": {
+      "sm": {
+        "$value": "0.875rem",
+        "$type": "dimension"
+      },
+      "base": {
+        "$value": "1rem",
+        "$type": "dimension"
+      },
+      "lg": {
+        "$value": "1.25rem",
+        "$type": "dimension"
+      },
+      "xl": {
+        "$value": "1.5rem",
+        "$type": "dimension"
+      }
+    }
+  },
+  "border": {
+    "radius": {
+      "sm": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "md": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "lg": {
+        "$value": "12px",
+        "$type": "dimension"
+      }
+    }
+  }
+}

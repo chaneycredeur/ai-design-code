@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Design Code</title>
+</head>
+<body>
+  <main style="max-width: 960px; margin: 0 auto; padding: var(--ds-spacing-xl);">
+    <h1>AI Design Code</h1>
+    <p>A vanilla web component development environment.</p>
+
+    <section style="margin-top: var(--ds-spacing-xl);">
+      <h2>Button Component</h2>
+      <div style="display: flex; gap: var(--ds-spacing-md); margin-top: var(--ds-spacing-md);">
+        <my-button label="Primary Action"></my-button>
+        <my-button label="Secondary" variant="secondary"></my-button>
+      </div>
+    </section>
+
+    <section style="margin-top: var(--ds-spacing-xl);">
+      <h2>Card Component</h2>
+      <div style="display: grid; gap: var(--ds-spacing-md); grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: var(--ds-spacing-md);">
+        <my-card>
+          <span slot="header">Design Tokens</span>
+          <p>CSS custom properties generated from Figma Variables via Style Dictionary.</p>
+        </my-card>
+        <my-card>
+          <span slot="header">Web Components</span>
+          <p>Vanilla custom elements with light DOM and Shadow DOM patterns.</p>
+        </my-card>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+  font-family: var(--ds-font-family-sans);
+  font-size: var(--ds-font-size-base);
+  color: var(--ds-color-text);
+  background-color: var(--ds-color-surface);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
